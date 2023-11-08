@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto:wght@300;400;500;700;900&display=swap');
+ 
+body{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.boder{
+  width: 80%;
+  margin: auto;
+}
+.logo{
+/* border: 2px solid green; */
+/* width: 80%; */
+/* margin: auto; */
+height: 70px; 
+display: flex;
+justify-content: space-between; 
+align-items: center;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  gap: 35px; 
+}
+button{
+  margin-top: 5px;
+  margin-right: 5px;
+  background-color: red;
+  padding: 6px 16px;
+  height: 30px;
+  color: aliceblue;
+  font-weight: 500;
+  border-radius: 3px;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  height: calc(100vh-72px);
+  /* height: calc(100vh-72px); */
+
+}
+.hero h1{
+  margin: 0;
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 63px;
+}
+herobutton{
+  display: flex;
+  color: white;
+  
+}
+.buttoncolor{
+  background-color: transparent;
+  color: var(--gray);
+  
+}
+.shopin{
+  font-size: 10px;
+
+}
+.brandicons{
+  display: flex;
+  gap: 16px;
+}
+
