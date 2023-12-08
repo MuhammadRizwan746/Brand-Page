@@ -1,0 +1,14 @@
+.header{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header h1{
+    margin: 5px 0 ;
+    font-size: 45px;
+    font-weight: 600;
+  }
+   .header p{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+   }

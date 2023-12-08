@@ -1,0 +1,67 @@
+
+.containerr{
+    
+    width: 80%;
+    margin: 0 auto;
+     display: flex; 
+    /* gap: 49px; */
+    
+}
+.formcontrolerr textarea:hover{
+    box-shadow: 0 5px 8px 0 skyblue;
+}
+
+.topsection{
+    display: flex; 
+    gap: 30px;
+    
+}
+.formcontroler{
+    display: flex;
+    flex-direction: column;
+    /* width: 45%; */
+    width: 439px;
+    height: 75px;
+    position: relative;
+
+}
+.formcontroler:hover{
+    color: red;
+}
+.formcontroler input{
+    margin-top: 10px;
+    height: 40px;  
+}
+.formcontrolerr{
+    position: relative;  
+}
+.formcontroler label{
+    
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    background-color: white;
+    font-size: large;
+}
+.formcontrolerr textarea {
+   min-width: 435px;
+   min-height: 150px;
+}
+.formcontrolerr label{
+    position: absolute;
+    top: -10px;
+    left: 18px;
+    background-color: white;
+   /* max-height: 150px; */
+}
+.contactimag img{
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+}
+.submit_btn{
+lighting-color: aqua;
+}
+.submit_btn{
+    margin-top: 12px;
+}
